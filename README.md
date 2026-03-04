@@ -1,2 +1,2 @@
 # SOC-Analyst-Portfolio
-Cybersecurity investigations and SOC analyst projects.
+SOC Analyst Portfolio demonstrating security investigations, log analysis, and incident response documentation.
