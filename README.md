@@ -18,7 +18,7 @@ I enjoy log analysis, incident investigation, and mapping activity to MITRE ATT&
 |---|---|
 | [01 - Brute Force Login Investigation](./01-Brute-Force-Investigation) | Analyzed SSH authentication failures to identify brute force behavior; documented IoCs and response actions |
 | 02 - Phishing Investigation *(coming soon)* | Email header + link analysis with recommended SOC response |
-| 03 - Log Analysis *(coming soon)* | Suspicious authentication patterns (impossible travel / spraying / brute force) |
+| - [03 Threat Intelligence Investigation](Threat-intelligence-investigation) | Analysis of a suspicious domain using OSINT tools such as VirusTotal, WHOIS, and DNS lookup to identify indicators of compromise) |
 
 ---
 
