@@ -1,0 +1,95 @@
+Investigation Date: March 3, 2026
+# Threat Intelligence Investigation
+
+## Overview
+This project documents a threat intelligence investigation to analyze a suspicious domain and identify potential indicators of compromise (IOCs).
+
+This investigation is conducted for educational purposes using publicly available
+threat intelligence tools. No interaction with malicious infrastructure was performed.
+
+## Investigation Workflow
+```mermaid
+flowchart TD
+### VirusTotal Analysis
+
+Indicator: example.com  
+Analysis Date: March 2026  
+
+Key Findings:
+- Security vendor detections: 0/90
+- Domain reputation: No malicious detections
+- First seen: Historical domain used for documentation and testing
+
+Assessment:
+The domain example.com does not show any malicious indicators on VirusTotal. 
+No security vendors currently flag the domain as suspicious or malicious.
+### WHOIS Analysis
+
+Registrar: Internet Assigned Numbers Authority (IANA)  
+Domain Creation Date: 1995  
+
+Key Findings:
+- Domain is maintained by IANA
+- Reserved for documentation and testing purposes
+- Not associated with commercial or malicious activity
+
+Assessment:
+WHOIS records confirm that example.com is an officially reserved domain used in 
+documentation and technical examples. The domain is considered safe.
+
+### DNS Analysis
+
+A Record:
+- 104.18.26.120
+
+Name Servers:
+- a.iana-servers.net
+- b.iana-servers.net
+
+Key Findings:
+- DNS records correspond to infrastructure operated by IANA
+- No suspicious subdomains identified
+
+Assessment:
+DNS infrastructure appears legitimate and consistent with a reserved test domain.
+## Indicators of Compromise (IOCs)
+
+| Indicator | Type | Notes |
+|---|---|---|
+| example.com | Domain | Reserved domain used for testing |
+| 104.18.26.120 | IP Address | Associated infrastructure |
+## Analyst Assessment
+
+The investigation of example.com across multiple threat intelligence sources
+did not reveal any malicious indicators. VirusTotal shows no vendor detections,
+and WHOIS records confirm the domain is operated by the Internet Assigned Numbers
+Authority (IANA) for documentation purposes.
+
+Based on the available intelligence, the domain does not present a security risk.
+This investigation demonstrates the process of validating indicators using
+multiple threat intelligence sources before drawing conclusions.
+```
+
+## Indicator Investigated
+
+| Indicator | Type | Description |
+|---|---|---|
+| example.com | Domain | Used for investigation demonstration |
+
+## Tools Used
+- VirusTotal
+- AbuseIPDB
+- Cisco Talos Intelligence
+- WHOIS Lookup
+- DNS Lookup
+
+## Indicators of Compromise (IOCs)
+
+| IOC | Type | Description |
+|---|---|---|
+| example.com | Domain | Demonstration indicator |
+
+## Analyst Assessment
+This investigation analyzed the domain using multiple threat intelligence platforms to determine whether it posed a potential security risk. The findings help demonstrate how analysts correlate threat intelligence sources to identify suspicious infrastructure.
+
+## 
