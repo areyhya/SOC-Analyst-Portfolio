@@ -21,8 +21,6 @@ https://github.com/areyhya/threat-intelligence-investigation
 
 ## Portfolio Overview
 
-## Portfolio Overview
-
 | Investigation | Description |
 |---|---|
 | [01 - Brute Force Login Investigation](./01-Brute-Force-Investigation) | Analyzed SSH authentication failures to identify brute force behavior; documented IoCs and response actions |
