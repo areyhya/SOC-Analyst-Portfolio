@@ -7,7 +7,16 @@
 Entry-level cybersecurity analyst with cybersecurity coursework from WGU and the Google Cybersecurity Certificate.  
 Target roles: SOC Analyst I / Security Operations Analyst.  
 I enjoy log analysis, incident investigation, and mapping activity to MITRE ATT&CK.
+## Cybersecurity Investigation Projects
 
+Below are hands-on cybersecurity investigations demonstrating SOC analyst workflows, threat intelligence research, and security analysis.
+
+### Threat Intelligence Investigation
+
+Analysis of a suspicious domain using OSINT tools such as VirusTotal, WHOIS, and DNS lookup to identify indicators of compromise.
+
+🔗 View Project  
+https://github.com/areyhya/threat-intelligence-investigation
 ---
 
 ## Portfolio Overview
@@ -18,7 +27,7 @@ I enjoy log analysis, incident investigation, and mapping activity to MITRE ATT&
 |---|---|
 | [01 - Brute Force Login Investigation](./01-Brute-Force-Investigation) | Analyzed SSH authentication failures to identify brute force behavior; documented IoCs and response actions |
 | 02 - Phishing Investigation *(coming soon)* | Email header + link analysis with recommended SOC response |
-| - [03 Threat Intelligence Investigation](Threat-intelligence-investigation) | Analysis of a suspicious domain using OSINT tools such as VirusTotal, WHOIS, and DNS lookup to identify indicators of compromise) |
+| -03 [View Threat Intelligence Investigation](https://github.com/areyhya/threat-intelligence-investigation) | Analysis of a suspicious domain using OSINT tools such as VirusTotal, WHOIS, and DNS lookup to identify indicators of compromise) |
 
 ---
 
