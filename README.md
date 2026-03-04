@@ -1,11 +1,22 @@
 ## About Me
 
-Entry-level cybersecurity analyst with training from WGU's Cybersecurity program and the Google Cybersecurity Certificate.
+# Areyhya — SOC Analyst Portfolio
 
-Focused on security monitoring, log analysis, and incident investigation within Security Operations Center (SOC) environments.
+Entry-level cybersecurity analyst with training from WGU and the Google Cybersecurity Certificate.  
+Focused on log analysis, threat detection, and incident investigation within SOC environments.
 
-This portfolio demonstrates hands-on investigations involving authentication logs, brute force attacks, phishing analysis, and threat detection techniques.# SOC-Analyst-Portfolio
-SOC Analyst Portfolio demonstrating security investigations, log analysis, and incident response documentation.
+---
+
+## Portfolio Overview
+
+| Investigation | Description |
+|---------------|-------------|
+| [Brute Force Login Investigation](./01-Brute-Force-Investigation) | Analysis of repeated SSH authentication failures indicating a brute force attack |
+| Phishing Email Investigation *(coming soon)* | Investigation of suspicious email headers and phishing indicators |
+| Log Analysis Investigation *(coming soon)* | Detection of suspicious authentication patterns |
+
+---
+
 ## Skills
 
 **Security Analysis**
@@ -16,6 +27,13 @@ SOC Analyst Portfolio demonstrating security investigations, log analysis, and i
 **Frameworks & Methodologies**
 - MITRE ATT&CK
 - Incident Response Workflow
+
+**Tools**
+- TryHackMe
+- Linux
+- GitHub
+
+---
 ## Projects
 
 ### Brute Force Login Investigation
@@ -34,3 +52,10 @@ Project folder: 01-Brute-Force-Investigation
 - Networking Fundamentals
 - Authentication Logs
 - Security Monitoring
+
+  
+## Currently Learning
+
+- SOC investigation techniques
+- Log analysis and threat detection
+- Security monitoring workflows
