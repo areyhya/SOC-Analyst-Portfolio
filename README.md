@@ -12,7 +12,7 @@ I enjoy log analysis, incident investigation, and mapping activity to MITRE ATT&
 - DNS Analysis
 - Incident Documentation
 - Indicators of Compromise (IOC) Identification
-- **Security Analysis**
+- Security Analysis
 - Incident Investigation
 - Threat Detection
 
