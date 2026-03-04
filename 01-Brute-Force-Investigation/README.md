@@ -7,45 +7,33 @@ The activity originated from a single external IP address and occurred repeatedl
 ---
 
 ## Timeline of Activity
-| Time | Event |
-|-----|------|
+
+| Time  | Event |
+|------:|-------|
 | 10:14 | Multiple failed login attempts detected |
 | 10:15 | Repeated authentication failures from same IP |
 | 10:17 | Alert triggered due to excessive login attempts |
 
----
-
-## Evidence Collected
-Evidence was gathered from authentication logs showing repeated login failures.
-
-Observed patterns included:
-
-- repeated login failures
-- multiple usernames attempted
-- single IP address responsible for the activity
-
-Screenshots of the logs are located in the **evidence folder**.
-
----
-
 ## Indicators of Compromise (IoCs)
 
 | Indicator | Description |
-|-----------|-------------|
-| Suspicious IP Address | XXX.XXX.XXX.XXX |
+|----------|-------------|
+| Suspicious IP Address | `<REPLACE_WITH_IP_OR_REDACTED>` |
 | Targeted Service | SSH |
 | Attack Pattern | Repeated password attempts |
-
----
 
 ## MITRE ATT&CK Mapping
 
 | Tactic | Technique |
-|------|-----------|
+|--------|-----------|
 | Credential Access | Brute Force |
-
 ---
+## What I Did (SOC Workflow)
 
+- Reviewed authentication logs for anomalous patterns
+- Identified repeated failures from a single source IP
+- Documented IoCs and mapped behavior to MITRE ATT&CK
+- Recommended containment and hardening steps
 ## Analysis
 The activity appears consistent with a brute force login attempt.  
 The attacker attempted to gain unauthorized access by repeatedly trying different password combinations against the SSH authentication service.
